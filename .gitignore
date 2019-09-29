@@ -3,3 +3,5 @@
 ################################################################################
 
 /MatchingGame/.vs/*
+/MatchingGame/MatchingGame/bin/Debug
+/MatchingGame/MatchingGame/obj/Debug
