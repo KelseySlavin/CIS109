@@ -1,6 +1,6 @@
 ﻿namespace DigitalClock
 {
-    partial class Form1
+    partial class Clock
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 65F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Fuchsia;
+            this.label1.Location = new System.Drawing.Point(13, 56);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(776, 320);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "00:00:00";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Clock
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.label1);
+            this.Name = "Clock";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Digital Clock";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }
 
