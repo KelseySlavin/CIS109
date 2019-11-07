@@ -16,5 +16,7 @@ namespace DigitalClock
         {
             InitializeComponent();
         }
+        // edited code
+
     }
 }
