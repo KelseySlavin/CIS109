@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CreateAMusicPlayer.Properties
+namespace MazeGame.Properties
 {
 
 
